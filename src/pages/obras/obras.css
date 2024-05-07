@@ -1,0 +1,168 @@
+.backWork{
+    width: 100vw;
+    max-width: 100%;
+    background: linear-gradient(0deg, #6D8293, #48097A);
+    overflow-x: hidden; /* Evitar desbordamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    z-index: 0;
+}
+.spaceWork{
+    min-height: 90vh;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.aroundWorks{
+    display: flex;
+    flex-direction: column;
+    
+}
+.aroundTitle{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titleWork{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 1rem;
+    font-size: 18px;
+    text-align: center;
+
+}
+.linkWork{
+    text-decoration: none;
+}
+.cardWork{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5));
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    width: 88vw;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgWork{
+    width: 80vw;
+    height: 42vh;
+    object-fit: cover;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.cardWork:hover{
+    transform: scale(1.1);
+    transition: ease 2s;
+}
+.seeMore{
+    color: white;
+    font-size: 21px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3));
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+.aroundLoaderWork{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5));
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 1rem;
+    width: 88vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.loaderTextWork{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+@media(min-width: 768px){
+
+
+    .aroundWorks{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardWork{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .titleWork{
+        font-size: 20px;
+    }
+
+    .cardWork{
+        width: 38vw;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .imgWork{
+        width: 35vw;
+        height: 27vh;
+    }
+    .loaderText{
+        font-family: "Roboto", sans-serif;
+        color: white;
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+    .aroundLoaderIndWork{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+
+}
+
+@media(min-width: 1024px){
+
+    .spaceWork{
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .cardWork{
+        width: 23vw;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 2.7rem;
+    }
+    .cardWork:hover{
+        transform: scale(1.1);
+        transition: ease 2s;
+    }
+    .imgWork{
+        width: 20vw;
+        height: 30vh;
+    }
+    .seeMore{
+        font-size: 23px;
+    }
+    .loaderText{
+        margin-top: 1rem;
+        font-size: 22px;
+    }
+    .aroundLoaderIndWork{
+        height: 45vh;
+    }
+}
