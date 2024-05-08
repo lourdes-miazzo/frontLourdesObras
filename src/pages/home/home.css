@@ -86,7 +86,7 @@ video{
 }
 @media(min-width: 1360px){
     video{
-        width: 31vw;
+        width: 29vw;
         height: 63vh;
     }
     .aroundVideoHome{
